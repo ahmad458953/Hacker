@@ -1,3 +1,4 @@
+
 #!
 figlet hello choose your path mighy ethical hacker |lolcat
 echo ""
@@ -23,7 +24,10 @@ fi
 if [ "$path" == "2" ]; then
 	pkg update && pkg upgrade
 	pkg install git
-	git clone https://github.com/pvanfas
+	git clone https://github.com/xHak9x/SocialPhish.git
+        cd SocialPhish
+        chmod +x socialphish.sh
+        ./socialphish.sh
 fi
 if [ "$path" == "3" ]; then
 	echo "sorry we only have nethunter for now this is still beta"
@@ -32,6 +36,24 @@ if [ "$path" == "3" ]; then
 	chmod +x install-nethunter-termux
 	./install-nethunter-termux
 fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
