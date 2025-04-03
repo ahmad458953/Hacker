@@ -11,7 +11,7 @@ echo ""
 figlet "the socialphisher"|lolcat ; termimage download.jpeg
 echo ""
 echo ""
-figlet the linux  terminal tools |lolcat
+figlet the linux  terminal tools |lolcat ;termimage images.png
 echo ""
 echo ""
 echo -n "choose your path 1 or 2 or 3 bacicly this will dwonload the tools you need for them ";read path
