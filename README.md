@@ -12,5 +12,6 @@ pkg install figlet -y
 pkg install python -y
 
 ```
+```
 pip install lolcat
 ```
