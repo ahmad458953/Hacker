@@ -15,20 +15,24 @@ figlet the linux  terminal tools |lolcat ;termimage images.png
 echo ""
 echo ""
 echo -n "choose your path 1 or 2 or 3 bacicly this will dwonload the tools you need for them ";read path
-if [ "$path" == "1" ]then
+if [ "$path" == "1" ]; then
 	pkg update
 	pkg upgrade
 	pkg install w3m python php openjdk ruby
 fi
-if [ "$path" == "2" ]then
+if [ "$path" == "2" ]; then
 	pkg update && pkg upgrade
 	pkg install git
 	git clone https://github.com/pvanfas
 fi
-if [ "$path" == "3" ]then
+if [ "$path" == "3" ]; then
 	echo "sorry we only have nethunter for now this is still beta"
 	pkg install wget
 	wget -O install-nethunter-termux https://offs.ec/2MceZWr
 	chmod +x install-nethunter-termux
 	./install-nethunter-termux
 fi
+
+
+
+
